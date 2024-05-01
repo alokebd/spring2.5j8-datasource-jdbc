@@ -1,0 +1,23 @@
+#app:
+#  datasource:
+#    main:
+#      driver-class-name: org.postgresql.Driver
+#      jdbc-url: jdbc:postgresql://localhost:5432/amigoscode
+#      username: root
+#      password: Password
+#      pool-size: 30
+      
+      
+spring:
+  datasource:
+       driver-class-name: com.mysql.jdbc.Driver
+       url: jdbc:mysql://localhost:3306/java2tech
+       username: root
+       password: Password
+
+server:
+  error:
+    include-binding-errors: always
+    include-message: always
+
+
